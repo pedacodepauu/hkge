@@ -3,6 +3,10 @@ body{
     background-color: #000;
 }
 
+a{
+    text-decoration: none;
+}
+
 #design{
     display: flex;
     align-items: center; 
@@ -39,6 +43,13 @@ body{
     height: 200px;
     margin-right:6px;
     transition: transform .2s;
+}
+
+.button-center{
+    margin:auto;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    color: #000;
 }
 
 .a1:hover{
